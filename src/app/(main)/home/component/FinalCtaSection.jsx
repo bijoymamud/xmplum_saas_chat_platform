@@ -2,7 +2,7 @@ export default function FinalCtaSection() {
   return (
     <section id="about" className="relative scroll-mt-24 py-20">
       <div className="mx-auto max-w-screen-2xl">
-        <div className="group relative rounded-3xl border border-border/50 bg-background/95 p-10 shadow-lg shadow-foreground/5 transition duration-300 hover:-translate-y-1 hover:border-foreground/30 hover:shadow-2xl hover:shadow-foreground/10">
+        <div className="group relative rounded-3xl border border-border/50 bg-background/95 p-10 shadow-md shadow-foreground/5 transition duration-300 ">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-4">
               <p className="text-sm font-bold uppercase tracking-widest opacity-70">Final CTA</p>
@@ -13,10 +13,10 @@ export default function FinalCtaSection() {
                 Join the future of AI-powered education and professional assistance. Start with the student assistant and scale into advanced legal workflows.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition hover:translate-y-[-1px] hover:bg-primary/90">
+                <button className="rounded-md hover:cursor-pointer bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition hover:translate-y-[-1px] hover:bg-primary/90">
                   Start Free Today
                 </button>
-                <button className="rounded-xl border border-border/70 bg-background/60 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur transition hover:border-foreground/40">
+                <button className="rounded-md hover:cursor-pointer border border-border/70 bg-background/60 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur transition hover:border-foreground/40">
                   Talk to Sales
                 </button>
               </div>

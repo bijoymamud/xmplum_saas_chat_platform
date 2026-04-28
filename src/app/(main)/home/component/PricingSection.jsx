@@ -1,3 +1,5 @@
+import { CornerDownRight } from "lucide-react";
+
 const pricing = [
   {
     name: "Free",
@@ -83,8 +85,8 @@ export default function PricingSection() {
 
   <ul className="mt-6 flex-1 space-y-3 text-lg text-muted-foreground">
     {plan.features.map((feature) => (
-      <li key={feature} className="flex gap-2">
-        <span className="mt-1 size-1.5 rounded-full bg-primary" />
+      <li key={feature} className="flex items-center gap-2">
+        <CornerDownRight size={16} />
         {feature}
       </li>
     ))}

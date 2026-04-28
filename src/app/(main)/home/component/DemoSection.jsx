@@ -20,26 +20,26 @@ export default function DemoSection() {
               </button>
             </div>
           </div>
-          <div className="group relative rounded-3xl border border-border/50 bg-background/95 p-6 shadow-lg shadow-foreground/5 transition duration-300 hover:-translate-y-1 hover:border-foreground/30 hover:shadow-2xl hover:shadow-foreground/10">
+          <div className="group relative rounded-3xl border border-border/50 bg-background/95 p-6 shadow-md shadow-foreground/5 transition duration-300 ">
             <div className="space-y-4">
-              <div className="rounded-2xl border border-border/60 bg-muted/40 p-4 text-lg text-muted-foreground">
+              <div className="rounded-l-2xl rounded-b-2xl bg-primary/10 px-4 py-3 text-foreground">
                 <p className="text-xs uppercase text-muted-foreground">You</p>
                 <p className="mt-2 text-foreground">Summarize this lecture and build a 5-question quiz.</p>
               </div>
-              <div className="rounded-2xl border border-border/60 bg-background/60 p-4 text-lg text-muted-foreground">
+              <div className="rounded-r-2xl rounded-b-2xl bg-blue-500/10 px-4 py-3 text-foreground">
                 <p className="text-xs uppercase text-muted-foreground">Xmplum AI</p>
                 <p className="mt-2 text-foreground">
                   Here is a concise summary plus five multiple-choice questions with answer keys.
                 </p>
               </div>
-              <div className="flex items-center gap-3 rounded-2xl border border-border/60 bg-background/60 p-3">
+              <div className="flex items-center gap-3 rounded-full px-5 border border-border/60 bg-background/60 p-2">
                 <input
                   type="text"
                   placeholder="Try asking about your lecture..."
-                  className="w-full bg-transparent text-lg text-foreground placeholder:text-muted-foreground focus:outline-none"
+                  className="w-full bg-transparent text-base text-foreground placeholder:text-muted-foreground focus:outline-none"
                   aria-label="Demo prompt"
                 />
-                <button className="rounded-xl bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground">
+                <button className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">
                   Send
                 </button>
               </div>

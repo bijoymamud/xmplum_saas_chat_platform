@@ -5,7 +5,7 @@ export function Footer() {
 
   return (
     <footer className="border-t bg-background">
-      <div className="container px-4 md:px-8 max-w-screen-2xl mx-auto py-12 md:py-16">
+      <div className="container  max-w-screen-2xl mx-auto py-12 md:py-16">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
           <div className="col-span-2 lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 font-heading font-semibold text-2xl mb-4">
