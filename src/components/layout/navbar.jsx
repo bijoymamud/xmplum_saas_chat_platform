@@ -12,15 +12,16 @@ const navLinks = [
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/30 bg-background/60 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-screen-2xl items-center px-6">
+      <div className="mx-auto flex h-16 max-w-screen-2xl items-center ">
 
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center gap-2 mr-8">
           <Image
-            src="https://i.ibb.co.com/7JTGSGZC/Dark-logo.png"
+            src="https://i.ibb.co.com/ccPqtfC9/xmplum-official.png"
             alt="Xmplum AI"
-            width={52}
-            height={42}
+            width={56}
+            height={46}
+            className="h-14 w-auto object-contain bg-transparent"
             unoptimized
           />
         </Link>

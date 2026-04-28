@@ -16,7 +16,7 @@ export default function ComparisonSection() {
             Why We're Better Than Traditional AI Tools
           </h2>
         </div>
-        <div className="mt-10 overflow-hidden  border border-border/80 bg-background/95 shadow-lg shadow-foreground/5">
+        <div className="mt-10 overflow-hidden  border border-border/80 bg-background/95 shadow-md shadow-foreground/5">
           <div className="grid grid-cols-3 border-b border-border/60 text-lg font-semibold text-foreground">
             <div className="p-4">Features</div>
             <div className="p-4 text-center">Our Platform</div>
