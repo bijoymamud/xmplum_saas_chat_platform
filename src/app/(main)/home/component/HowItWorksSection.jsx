@@ -1,5 +1,5 @@
 "use client";
-import { Brain, ChevronRight, CloudUpload, FileQuestion, Rocket } from "lucide-react";
+import { Brain, ChevronRight, CloudUpload, Rocket, Sparkles } from "lucide-react";
 
 const steps = [
   {
@@ -7,15 +7,15 @@ const steps = [
     icon: CloudUpload,
   },
   {
-    title: "Train your AI",
+    title: "Personalize your model",
     icon: Brain,
   },
   {
-    title: "Generate exams",
-    icon: FileQuestion,
+    title: "Generate smart insights",
+    icon: Sparkles,
   },
   {
-    title: "Learn faster and work smarter",
+    title: "Master your workflow",
     icon: Rocket,
   },
 ];

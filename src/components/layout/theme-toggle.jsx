@@ -77,12 +77,12 @@ export function ThemeToggle() {
     >
       <div className="absolute inset-0 flex items-center shadow-inner justify-center pointer-events-none">
         <Sun 
-          className={`absolute h-5 w-5 text-primary transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+          className={`absolute h-5 w-5 text-primary rounded-full transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
             isDark ? "-translate-y-10 opacity-0" : "translate-y-0 opacity-100"
           }`} 
         />
         <Moon 
-          className={`absolute h-5 w-5 text-white  transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+          className={`absolute h-5 w-5 text-white rounded-full  transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
             isDark ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`} 
         />

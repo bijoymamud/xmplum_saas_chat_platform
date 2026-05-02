@@ -200,6 +200,34 @@ html {
     background: linear-gradient(120deg, transparent 35%, rgb(56 189 248 / 0.25) 50%, transparent 65%);
     animation: sweep 3.6s ease-in-out infinite;
   }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(12px);
+  }
+
+  .dark .glass-card {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .mesh-gradient {
+    background-color: #000;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(210, 100%, 20%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225, 100%, 15%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(240, 100%, 20%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(210, 100%, 15%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 50% 100%, hsla(225, 100%, 20%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(240, 100%, 15%, 0.5) 0px, transparent 50%);
+    background-size: 200% 200%;
+    animation: mesh-move 15s ease infinite;
+  }
+}
+
+@keyframes mesh-move {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
 }
 
 @keyframes float {
